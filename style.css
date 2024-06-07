@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+}
+
+.container-rigth {
+    display: inline-block;
+    position: absolute;
+}
+
+.links-menu {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.links-menu:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.links-menu:active {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+button {
+    background: #6FBF44;
+    color: #FFFFFF;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+header {
+    margin: 47px 0 0 42px;
+}
+
+img {
+    width: 595px;
+    height: 500px;
+    margin: 163px 84px 0 121px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    width: 582px;
+    margin-top: 342px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    margin: 47px 0 55px 0;
+}
+
+.link-acess {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.link-acess:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.link-acess:active {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .container-left {
+        display: block;
+    }
+
+    .container-rigth {
+        display: block;
+        width: 100vw;
+    }
+
+    header {
+        margin-left: 120px;
+    }
+
+    .links-menu {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 30px;
+        width: 200px;
+        height: 70px;
+    }
+
+    img {
+        margin: 163px 0 70px 200px;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 0 auto;
+        width: 900px;
+    }
+
+    p {
+        text-align: center;
+        margin: 50px auto;
+        font-size: 30px;
+        width: 600px;
+    }
+
+    .link-acess {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container-left {
+        display: block;
+    }
+
+    .container-rigth {
+        display: block;
+        width: 100vw;
+    }
+
+    header {
+        margin: 47px 0 0 55px;
+    }
+
+    .links-menu {
+        font-size: 24px;
+        margin-right: 24px;
+    }
+
+    button {
+        font-size: 30px;
+        width: 200px;
+        height: 70px;
+    }
+
+    img {
+        margin: 163px 0 60px 150px;
+    }
+
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin: 50px auto;
+        font-size: 30px;
+        width: 568px;
+    }
+
+    .link-acess {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        margin: 0 auto;
+    }
+
+    .container-left {
+        display: block;
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .container-rigth {
+        display: block;
+        width: 100vw;
+    }
+
+    .links-menu {
+        display: none;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        position: relative;
+        left: 70%;
+        margin: 17px 15px 0 0;
+    }
+
+    img {
+        width: 279.92px;
+        height: 268.93px;
+        position: relative;
+        top: 375px;
+        margin: 50px 0 0 55px;
+    }
+
+    h1 {
+        text-align: center;
+        width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    p {
+        text-align: center;
+        width: 304px;
+        margin: 26px auto;
+        font-size: 18px;
+    }
+
+    .link-acess {
+        text-align: center;
+        display: block;
+        font-size: 18px;
+    }
+}
